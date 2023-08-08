@@ -1,0 +1,68 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-image:url(./Images/loginback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-family: 'Borel', cursive; */
+    font-family: 'REM', sans-serif;
+}
+#cont{
+    display: flex;                  /*how to center a division use this commands */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+form{
+    background-color:lightgray;
+    min-width: 25%;
+    padding: 25px;
+    border-radius: 5px;
+}
+label,input,button,a{
+    display: block;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+form h1{
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid black;
+    
+}
+input{
+    min-width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    color: rgb(216, 81, 24);
+    background-color: azure;
+}
+button{
+    width: 30%;
+    height: 35px;
+    background-color: aliceblue;
+    color: rgb(19, 20, 20);
+    border-radius: 5px;
+    /* border: 5px; */
+}
+#l{
+    display: flex;
+    justify-content: space-around;
+}
+
+#can{
+    background-color: red;
+}
+a{
+    color: black;
+    text-decoration:solid;
+    font-size: 20px;
+}
+#user::placeholder{
+    color: darkblue;
+}
+#pass::placeholder{
+    color: red;
+}
